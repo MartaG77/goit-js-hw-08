@@ -1,7 +1,7 @@
 {
-  "name": "goit-js-hw-08",
+  "name": "cd..",
   "version": "2.0.0",
-  "description": "",
+  "description": "Этот проект был создан при помощи Parcel. Для знакомства и настройки дополнительных возможностей [обратись к документации](https://parceljs.org/).",
   "homepage": "https://martag77.github.io/goit-js-hw-08",
   "scripts": {
     "start": "parcel src/*.html",
@@ -12,13 +12,15 @@
     "url": "git+https://github.com/MartaG77/goit-js-hw-08.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Marta Głowacka <krecik@hotmail.com",
+  
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MartaG77/goit-js-hw-08/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "simplelightbox": "^2.14.2"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",

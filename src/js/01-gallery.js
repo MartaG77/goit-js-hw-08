@@ -11,4 +11,5 @@ const imageOpen = new SimpleLightbox('.gallery__link', {
   captionsData: 'alt',
   captionDelay: 250,
 });
+imagesGallery.style.listStyleType = 'none';
 console.log(galleryItems);

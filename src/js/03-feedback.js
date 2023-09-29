@@ -25,6 +25,9 @@ const submitBtn = sentForm => {
     const {
       elements: {email, message},
     } = sentForm.currentTarget;
+    if (email.value === "" || message.value === "") {
+      return alert("Error! All fields should be filled in ;-)");
+    }
     const objectData = {
         email: email.value,
         message: message.value,
@@ -37,4 +40,4 @@ const submitBtn = sentForm => {
       };
       form.reset();
 }
-form.addEventListener('submit', submitBtn);
+form.addEventListener("submit", submitBtn);
